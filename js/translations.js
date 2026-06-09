@@ -72,7 +72,7 @@ const T = {
     "footer.mentions":      "Mentions légales",
     "footer.privacy":       "Confidentialité",
     "footer.cookies":       "Cookies",
-    "footer.copy":          "© 2026 <a href=\"https://www.webdesignmindset.com\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit;text-decoration:underline;text-underline-offset:3px\">Web Design Mindset</a>. Tous droits réservés.",
+    "footer.copy":          "© 2026 <a href=\"https://www.webdesignmindset.com\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit;text-decoration:none\">Web Design Mindset</a>. Tous droits réservés.",
 
     /* ---- About page ---- */
     "about.label":      "L'agence",
@@ -236,7 +236,7 @@ const T = {
     "footer.mentions":     "Legal notices",
     "footer.privacy":      "Privacy policy",
     "footer.cookies":      "Cookies",
-    "footer.copy":         "© 2026 <a href=\"https://www.webdesignmindset.com\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit;text-decoration:underline;text-underline-offset:3px\">Web Design Mindset</a>. All rights reserved.",
+    "footer.copy":         "© 2026 <a href=\"https://www.webdesignmindset.com\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit;text-decoration:none\">Web Design Mindset</a>. All rights reserved.",
 
     "about.label":      "The agency",
     "about.title":      "One vision, one passion, one mission",
