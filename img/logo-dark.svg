@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 80" fill="none">
+  <!-- Mark: 200×200 scaled to 80px high (×0.4), centred at (40,40) -->
+  <g transform="scale(0.4)">
+    <polygon points="186,100 143,25.5 57,25.5 14,100 57,174.5 143,174.5"
+      stroke="#D5AE65" stroke-width="8.5" fill="none"
+      stroke-linejoin="miter" stroke-miterlimit="10"/>
+    <polygon points="174,100 137,35.9 63,35.9 26,100 63,164.1 137,164.1"
+      stroke="#D5AE65" stroke-width="8.5" fill="none"
+      stroke-linejoin="miter" stroke-miterlimit="10"/>
+    <polygon points="162,100 131,46.3 69,46.3 38,100 69,153.7 131,153.7"
+      stroke="#D5AE65" stroke-width="8.5" fill="none"
+      stroke-linejoin="miter" stroke-miterlimit="10"/>
+    <polygon points="150,100 125,56.7 75,56.7 50,100 75,143.3 125,143.3"
+      stroke="#D5AE65" stroke-width="8.5" fill="none"
+      stroke-linejoin="miter" stroke-miterlimit="10"/>
+    <polygon points="138,100 119,67.1 81,67.1 62,100 81,132.9 119,132.9"
+      stroke="#D5AE65" stroke-width="8.5" fill="none"
+      stroke-linejoin="miter" stroke-miterlimit="10"/>
+    <polygon points="126,100 113,77.5 87,77.5 74,100 87,122.5 113,122.5"
+      stroke="#D5AE65" stroke-width="8.5" fill="none"
+      stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+
+  <!-- Wordmark — fonts loaded by parent HTML page -->
+  <text x="88" y="29"
+    font-family="Archivo, Arial, sans-serif"
+    font-weight="800"
+    font-size="13.5"
+    letter-spacing="1.5"
+    fill="#F5F2EC">THE WONDER SOCCER</text>
+
+  <line x1="88" y1="37" x2="300" y2="37"
+    stroke="#D5AE65" stroke-width="0.7" opacity="0.55"/>
+
+  <text x="88" y="51"
+    font-family="Archivo, Arial, sans-serif"
+    font-weight="400"
+    font-size="8.5"
+    letter-spacing="5"
+    fill="#D5AE65">CONSULTING</text>
+
+  <text x="89" y="65"
+    font-family="Inter, Arial, sans-serif"
+    font-weight="400"
+    font-size="6.5"
+    letter-spacing="1.8"
+    fill="#8A8A8E">LICENSED FIFA AGENT</text>
+</svg>

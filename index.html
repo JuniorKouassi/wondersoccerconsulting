@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -30,6 +30,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.3/css/flag-icons.min.css">
 
   <!-- Schema.org -->
   <script type="application/ld+json">
@@ -65,7 +66,7 @@
   <header class="header" role="banner">
     <div class="header__inner">
       <a href="index.html" class="header__logo" aria-label="The Wonder Soccer Consulting — Accueil">
-        <img src="img/logo-officiel.jpg" alt="The Wonder Soccer Consulting" class="header__logo-img" width="200" height="50">
+        <img src="img/logo-dark.svg" alt="The Wonder Soccer Consulting" class="header__logo-img">
       </a>
 
       <nav class="header__nav" role="navigation" aria-label="Navigation principale">
@@ -77,9 +78,9 @@
 
       <div class="header__actions">
         <div class="lang-switcher" aria-label="Sélecteur de langue">
-          <button class="lang-btn" data-lang="fr" aria-label="Français">🇫🇷 FR</button>
-          <span class="lang-sep" aria-hidden="true">|</span>
-          <button class="lang-btn" data-lang="en" aria-label="English">🇬🇧 EN</button>
+          <button class="lang-btn" data-lang="fr" aria-label="Français"><span class="fi fi-fr"></span></button>
+          
+          <button class="lang-btn" data-lang="en" aria-label="English"><span class="fi fi-gb"></span></button>
         </div>
         <a href="contact.html" class="btn-header" data-i18n="nav.cta">Contact</a>
       </div>
@@ -103,9 +104,8 @@
     </nav>
     <div class="mobile-nav__actions">
       <div class="lang-switcher">
-        <button class="lang-btn" data-lang="fr">🇫🇷 FR</button>
-        <span class="lang-sep">|</span>
-        <button class="lang-btn" data-lang="en">🇬🇧 EN</button>
+        <button class="lang-btn" data-lang="fr"><span class="fi fi-fr"></span></button>
+        <button class="lang-btn" data-lang="en"><span class="fi fi-gb"></span></button>
       </div>
     </div>
   </div>
@@ -390,7 +390,7 @@
       <div class="footer__grid">
         <div class="footer__brand">
           <div class="footer__brand-logo">
-            <img src="img/logo-officiel.jpg" alt="The Wonder Soccer Consulting" class="footer__brand-logo-svg" width="180" height="45">
+            <img src="img/logo-dark.svg" alt="The Wonder Soccer Consulting" class="footer__brand-logo-svg">
           </div>
           <p class="footer__brand-desc" data-i18n="footer.desc">Agent FIFA licencié spécialisé sur le marché africain. Révéler et accompagner les talents du football africain vers l'Europe depuis 2020.</p>
         </div>

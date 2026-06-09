@@ -124,13 +124,10 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 
 .header__logo { display: flex; align-items: center; flex-shrink: 0; }
 
-/* Real logo JPEG — remove gray background via mix-blend-mode on dark header */
+/* SVG logo — transparent background, no blend mode needed */
 .header__logo-img {
-  height: 48px;
+  height: 52px;
   width: auto;
-  /* On dark backgrounds: screen removes the near-white gray bg */
-  mix-blend-mode: screen;
-  filter: brightness(1.05) contrast(1.05);
 }
 
 /* Fallback SVG version */
@@ -190,8 +187,23 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   background: rgba(213, 174, 101, 0.1);
 }
 
-.lang-btn:hover { color: var(--cream); }
-.lang-sep { color: var(--black-3); user-select: none; }
+.lang-btn:hover { opacity: 1; }
+
+/* Flag icons inside lang buttons */
+.lang-btn .fi {
+  display: block;
+  width: 26px;
+  height: 19px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.12);
+  opacity: 0.65;
+  transition: opacity var(--transition), box-shadow var(--transition);
+}
+.lang-btn.active .fi,
+.lang-btn:hover .fi {
+  opacity: 1;
+  box-shadow: 0 0 0 1.5px var(--gold);
+}
 
 /* CTA button header */
 .btn-header {
@@ -1012,10 +1024,8 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 }
 .footer__brand-logo { margin-bottom: 1.25rem; }
 .footer__brand-logo-svg {
-  height: 48px;
+  height: 52px;
   width: auto;
-  mix-blend-mode: screen;
-  filter: brightness(1.05) contrast(1.05);
 }
 .footer__brand-desc { font-size: 0.85rem; color: var(--grey); line-height: 1.75; max-width: 280px; }
 .footer__col-title {

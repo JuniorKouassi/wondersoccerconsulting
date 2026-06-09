@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!--
+    Hexagone concentrique — flat-top orientation (plat haut/bas, pointu gauche/droite)
+    Centre (100,100) · 6 anneaux · espacement 12 · stroke-width 8.5
+    Fond transparent — uniquement le tracé doré
+  -->
+
+  <!-- Anneau 1 — R=86 -->
+  <polygon
+    points="186,100 143,25.5 57,25.5 14,100 57,174.5 143,174.5"
+    stroke="#D5AE65" stroke-width="8.5" fill="none"
+    stroke-linejoin="miter" stroke-miterlimit="10"/>
+
+  <!-- Anneau 2 — R=74 -->
+  <polygon
+    points="174,100 137,35.9 63,35.9 26,100 63,164.1 137,164.1"
+    stroke="#D5AE65" stroke-width="8.5" fill="none"
+    stroke-linejoin="miter" stroke-miterlimit="10"/>
+
+  <!-- Anneau 3 — R=62 -->
+  <polygon
+    points="162,100 131,46.3 69,46.3 38,100 69,153.7 131,153.7"
+    stroke="#D5AE65" stroke-width="8.5" fill="none"
+    stroke-linejoin="miter" stroke-miterlimit="10"/>
+
+  <!-- Anneau 4 — R=50 -->
+  <polygon
+    points="150,100 125,56.7 75,56.7 50,100 75,143.3 125,143.3"
+    stroke="#D5AE65" stroke-width="8.5" fill="none"
+    stroke-linejoin="miter" stroke-miterlimit="10"/>
+
+  <!-- Anneau 5 — R=38 -->
+  <polygon
+    points="138,100 119,67.1 81,67.1 62,100 81,132.9 119,132.9"
+    stroke="#D5AE65" stroke-width="8.5" fill="none"
+    stroke-linejoin="miter" stroke-miterlimit="10"/>
+
+  <!-- Anneau 6 — R=26 (centre) -->
+  <polygon
+    points="126,100 113,77.5 87,77.5 74,100 87,122.5 113,122.5"
+    stroke="#D5AE65" stroke-width="8.5" fill="none"
+    stroke-linejoin="miter" stroke-miterlimit="10"/>
+</svg>
