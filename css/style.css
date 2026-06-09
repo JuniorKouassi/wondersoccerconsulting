@@ -123,7 +123,17 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 }
 
 .header__logo { display: flex; align-items: center; flex-shrink: 0; }
-.header__logo-img { height: 42px; width: auto; }
+
+/* Real logo JPEG — remove gray background via mix-blend-mode on dark header */
+.header__logo-img {
+  height: 48px;
+  width: auto;
+  /* On dark backgrounds: screen removes the near-white gray bg */
+  mix-blend-mode: screen;
+  filter: brightness(1.05) contrast(1.05);
+}
+
+/* Fallback SVG version */
 .header__logo-svg { height: 42px; width: auto; }
 
 .header__nav { display: flex; align-items: center; gap: 0.25rem; }
@@ -1001,7 +1011,12 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   margin-bottom: 4rem;
 }
 .footer__brand-logo { margin-bottom: 1.25rem; }
-.footer__brand-logo-svg { height: 38px; width: auto; }
+.footer__brand-logo-svg {
+  height: 48px;
+  width: auto;
+  mix-blend-mode: screen;
+  filter: brightness(1.05) contrast(1.05);
+}
 .footer__brand-desc { font-size: 0.85rem; color: var(--grey); line-height: 1.75; max-width: 280px; }
 .footer__col-title {
   font-size: 0.62rem;

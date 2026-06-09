@@ -15,9 +15,9 @@ const T = {
 
     /* ---- Hero ---- */
     "hero.eyebrow":    "Agent licencié FIFA · Marché africain",
-    "hero.title.1":    "Révéler &amp; Accompagner",
+    "hero.title.1":    "Révéler et Accompagner",
     "hero.title.2":    "les Talents du Football Africain",
-    "hero.subtitle":   "5 ans d'expérience au service des joueurs africains. Vers les ligues professionnelles européennes.",
+    "hero.subtitle":   "5 ans d'expérience au service des joueurs africains, vers les grandes ligues professionnelles européennes.",
     "hero.cta.talent": "Soumettre un talent",
     "hero.cta.clubs":  "Espace clubs",
 
@@ -186,9 +186,9 @@ const T = {
     "nav.cta":      "Contact",
 
     "hero.eyebrow":    "FIFA licensed agent · African market",
-    "hero.title.1":    "Revealing &amp; Guiding",
+    "hero.title.1":    "Revealing and Guiding",
     "hero.title.2":    "African Football Talent",
-    "hero.subtitle":   "5 years of experience bridging African talent to Europe's top professional leagues.",
+    "hero.subtitle":   "5 years of experience placing African players in Europe's top professional leagues.",
     "hero.cta.talent": "Submit a talent",
     "hero.cta.clubs":  "For clubs",
 
