@@ -61,7 +61,7 @@ function initHeader() {
 
 function markActiveNav() {
   const page = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.header__nav-link, .mobile-nav__link').forEach(link => {
+  document.querySelectorAll('.header__nav-link, .mobile-nav__link, .bottom-nav-item').forEach(link => {
     const href = link.getAttribute('href');
     link.classList.toggle('active', href && href.includes(page) && page !== 'index.html');
   });
