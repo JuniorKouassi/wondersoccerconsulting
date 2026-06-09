@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joueurs — The Wonder Soccer Consulting</title>
+  <meta name="description" content="Découvrez les joueurs représentés par The Wonder Soccer Consulting, agent licencié FIFA spécialisé sur le marché africain.">
+  <link rel="canonical" href="https://www.wondersoccerconsulting.com/joueurs.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800;900&family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-body">
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo"><img src="img/logo.svg" alt="The Wonder Soccer Consulting" class="header__logo-img" width="200" height="50"></a>
+      <nav class="header__nav">
+        <a href="a-propos.html"  class="header__nav-link" data-i18n="nav.about">À propos</a>
+        <a href="joueurs.html"   class="header__nav-link active" data-i18n="nav.players">Joueurs</a>
+        <a href="services.html"  class="header__nav-link" data-i18n="nav.services">Services</a>
+        <a href="medias.html"    class="header__nav-link" data-i18n="nav.media">Médias</a>
+      </nav>
+      <div class="header__actions">
+        <div class="lang-switcher">
+          <button class="lang-btn" data-lang="fr">FR</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <a href="contact.html" class="btn-header" data-i18n="nav.cta">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-nav">
+    <nav><ul class="mobile-nav__list">
+      <li><a href="a-propos.html"  class="mobile-nav__link" data-i18n="nav.about">À propos</a></li>
+      <li><a href="joueurs.html"   class="mobile-nav__link" data-i18n="nav.players">Joueurs</a></li>
+      <li><a href="services.html"  class="mobile-nav__link" data-i18n="nav.services">Services</a></li>
+      <li><a href="medias.html"    class="mobile-nav__link" data-i18n="nav.media">Médias</a></li>
+      <li><a href="contact.html"   class="mobile-nav__link" data-i18n="nav.contact">Contact</a></li>
+    </ul></nav>
+    <div class="mobile-nav__actions">
+      <div class="lang-switcher">
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- Page Hero -->
+    <section class="section page-hero" style="background:var(--black-2)">
+      <div class="container">
+        <span class="section-label" data-i18n="players.page.label">Représentation</span>
+        <h1 data-i18n="players.page.title">Nos joueurs</h1>
+        <div class="divider"></div>
+        <p class="page-hero__subtitle" data-i18n="players.page.subtitle">L'ensemble des joueurs accompagnés par The Wonder Soccer Consulting.</p>
+      </div>
+    </section>
+
+    <!-- Players Grid -->
+    <section class="section section--dark">
+      <div class="container">
+
+        <!-- Filter bar -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all"   data-i18n="filter.all">Tous</button>
+          <button class="filter-btn"        data-filter="gk"    data-i18n="filter.gk">Gardien</button>
+          <button class="filter-btn"        data-filter="def"   data-i18n="filter.def">Défenseur</button>
+          <button class="filter-btn"        data-filter="mid"   data-i18n="filter.mid">Milieu</button>
+          <button class="filter-btn"        data-filter="fwd"   data-i18n="filter.fwd">Attaquant</button>
+        </div>
+
+        <!--
+          ============================================================
+          JOUEURS — À REMPLIR depuis Transfermarkt berater 11461
+          Dupliquer le bloc player-card pour chaque joueur.
+          data-pos : "gk" | "def" | "mid" | "fwd"
+          ============================================================
+        -->
+        <div class="players__grid" id="players-grid">
+
+          <!-- TEMPLATE JOUEUR — copier/coller autant de fois que nécessaire -->
+          <article class="player-card reveal" data-pos="fwd">
+            <div class="player-card__image">
+              <!-- <img src="img/players/joueur-1.jpg" alt="[NOM]" loading="lazy"> -->
+              <div class="player-card__placeholder">
+                <svg viewBox="0 0 24 24" style="width:52px;height:52px;fill:rgba(213,174,101,0.18)"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+              </div>
+            </div>
+            <div class="player-card__body">
+              <p class="player-card__pos">Attaquant</p>
+              <h2 class="player-card__name">[NOM JOUEUR 1]</h2>
+              <ul class="player-card__meta">
+                <li class="player-card__meta-item">
+                  <svg class="ico" viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/></svg>
+                  <span>[CLUB ACTUEL]</span>
+                </li>
+                <li class="player-card__meta-item">
+                  <svg class="ico" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                  <span>[NATIONALITÉ]</span>
+                </li>
+                <li class="player-card__meta-item">
+                  <svg class="ico" viewBox="0 0 24 24"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
+                  <span>[ÂGE] ans</span>
+                </li>
+              </ul>
+              <!-- Uncomment when Transfermarkt link is available:
+              <a href="https://www.transfermarkt.fr/..." target="_blank" rel="noopener"
+                 style="display:inline-block;margin-top:1rem;font-size:0.72rem;color:var(--gold);letter-spacing:0.1em"
+                 data-i18n="players.view.tm">Voir sur Transfermarkt →</a>
+              -->
+            </div>
+          </article>
+
+          <article class="player-card reveal reveal-delay-1" data-pos="mid">
+            <div class="player-card__image">
+              <div class="player-card__placeholder">
+                <svg viewBox="0 0 24 24" style="width:52px;height:52px;fill:rgba(213,174,101,0.18)"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+              </div>
+            </div>
+            <div class="player-card__body">
+              <p class="player-card__pos">Milieu</p>
+              <h2 class="player-card__name">[NOM JOUEUR 2]</h2>
+              <ul class="player-card__meta">
+                <li class="player-card__meta-item">
+                  <svg class="ico" viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/></svg>
+                  <span>[CLUB ACTUEL]</span>
+                </li>
+                <li class="player-card__meta-item">
+                  <svg class="ico" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                  <span>[NATIONALITÉ]</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="player-card reveal reveal-delay-2" data-pos="def">
+            <div class="player-card__image">
+              <div class="player-card__placeholder">
+                <svg viewBox="0 0 24 24" style="width:52px;height:52px;fill:rgba(213,174,101,0.18)"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+              </div>
+            </div>
+            <div class="player-card__body">
+              <p class="player-card__pos">Défenseur</p>
+              <h2 class="player-card__name">[NOM JOUEUR 3]</h2>
+              <ul class="player-card__meta">
+                <li class="player-card__meta-item">
+                  <svg class="ico" viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/></svg>
+                  <span>[CLUB ACTUEL]</span>
+                </li>
+                <li class="player-card__meta-item">
+                  <svg class="ico" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                  <span>[NATIONALITÉ]</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="player-card reveal reveal-delay-3" data-pos="gk">
+            <div class="player-card__image">
+              <div class="player-card__placeholder">
+                <svg viewBox="0 0 24 24" style="width:52px;height:52px;fill:rgba(213,174,101,0.18)"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+              </div>
+            </div>
+            <div class="player-card__body">
+              <p class="player-card__pos">Gardien</p>
+              <h2 class="player-card__name">[NOM JOUEUR 4]</h2>
+              <ul class="player-card__meta">
+                <li class="player-card__meta-item">
+                  <svg class="ico" viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/></svg>
+                  <span>[CLUB ACTUEL]</span>
+                </li>
+                <li class="player-card__meta-item">
+                  <svg class="ico" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                  <span>[NATIONALITÉ]</span>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+        <!-- End players grid — add more player-card blocks above as needed -->
+
+      </div>
+    </section>
+
+    <!-- Transfermarkt link -->
+    <section class="section" style="background:var(--black-2);text-align:center;padding:3rem 0">
+      <div class="container">
+        <p style="color:var(--grey);font-size:0.9rem;margin-bottom:1rem">
+          Profil complet sur Transfermarkt — The Wonder Soccer Consulting
+        </p>
+        <a href="https://www.transfermarkt.com/berater/11461" target="_blank" rel="noopener" class="btn btn--outline-gold">
+          Voir sur Transfermarkt →
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-logo"><img src="img/logo.svg" alt="The Wonder Soccer Consulting" class="footer__brand-logo-svg" width="180" height="45"></div>
+          <p class="footer__brand-desc" data-i18n="footer.desc">Agent FIFA licencié spécialisé sur le marché africain.</p>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="footer.navigation">Navigation</p>
+          <ul class="footer__links">
+            <li><a href="index.html"    class="footer__link">Accueil</a></li>
+            <li><a href="a-propos.html" class="footer__link" data-i18n="nav.about">À propos</a></li>
+            <li><a href="joueurs.html"  class="footer__link" data-i18n="nav.players">Joueurs</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="nav.services">Services</a></li>
+            <li><a href="contact.html"  class="footer__link" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="footer.col.services">Services</p>
+          <ul class="footer__links">
+            <li><a href="services.html" class="footer__link" data-i18n="service.contracts">Négociation</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service.transfers">Transferts</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service.career">Gestion de carrière</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service.scouting">Scouting</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="footer.col.contact">Contact</p>
+          <ul class="footer__links">
+            <li><a href="https://wa.me/2250707885909" class="footer__link" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="mailto:wondersociety@hotmail.com" class="footer__link">wondersociety@hotmail.com</a></li>
+            <li><a href="https://www.instagram.com/thewondersoccer" class="footer__link" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy" data-i18n="footer.copy">© 2025 The Wonder Soccer Consulting.</p>
+        <nav class="footer__legal-links">
+          <a href="mentions-legales.html"          class="footer__legal-link" data-i18n="footer.mentions">Mentions légales</a>
+          <a href="politique-confidentialite.html" class="footer__legal-link" data-i18n="footer.privacy">Confidentialité</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2250707885909" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg class="ico" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.106.549 4.082 1.512 5.8L.057 23.928a.75.75 0 00.924.924l6.123-1.455A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.875 0-3.63-.48-5.16-1.32l-.37-.21-3.84.91.93-3.73-.23-.38A9.97 9.97 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+  </a>
+  <button class="back-to-top" aria-label="Retour en haut">
+    <svg class="ico" viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

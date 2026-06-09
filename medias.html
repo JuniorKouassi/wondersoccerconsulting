@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Médias & Actualités — The Wonder Soccer Consulting</title>
+  <meta name="description" content="Dernières actualités, transferts et signatures de The Wonder Soccer Consulting, agent licencié FIFA.">
+  <link rel="canonical" href="https://www.wondersoccerconsulting.com/medias.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800;900&family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-body">
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo"><img src="img/logo.svg" alt="The Wonder Soccer Consulting" class="header__logo-img" width="200" height="50"></a>
+      <nav class="header__nav">
+        <a href="a-propos.html"  class="header__nav-link" data-i18n="nav.about">À propos</a>
+        <a href="joueurs.html"   class="header__nav-link" data-i18n="nav.players">Joueurs</a>
+        <a href="services.html"  class="header__nav-link" data-i18n="nav.services">Services</a>
+        <a href="medias.html"    class="header__nav-link active" data-i18n="nav.media">Médias</a>
+      </nav>
+      <div class="header__actions">
+        <div class="lang-switcher">
+          <button class="lang-btn" data-lang="fr">FR</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <a href="contact.html" class="btn-header" data-i18n="nav.cta">Contact</a>
+      </div>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-nav">
+    <nav><ul class="mobile-nav__list">
+      <li><a href="a-propos.html"  class="mobile-nav__link" data-i18n="nav.about">À propos</a></li>
+      <li><a href="joueurs.html"   class="mobile-nav__link" data-i18n="nav.players">Joueurs</a></li>
+      <li><a href="services.html"  class="mobile-nav__link" data-i18n="nav.services">Services</a></li>
+      <li><a href="medias.html"    class="mobile-nav__link" data-i18n="nav.media">Médias</a></li>
+      <li><a href="contact.html"   class="mobile-nav__link" data-i18n="nav.contact">Contact</a></li>
+    </ul></nav>
+    <div class="mobile-nav__actions">
+      <div class="lang-switcher">
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <section class="section page-hero" style="background:var(--black-2)">
+      <div class="container">
+        <span class="section-label" data-i18n="media.label">Actualités</span>
+        <h1 data-i18n-html="media.title">Médias &amp; Actualités</h1>
+        <div class="divider"></div>
+        <p class="page-hero__subtitle" data-i18n="media.subtitle">Transferts, signatures, interviews — suivez l'activité de The Wonder Soccer Consulting.</p>
+      </div>
+    </section>
+
+    <!-- News Grid -->
+    <section class="section section--dark">
+      <div class="container">
+
+        <!--
+          ============================================================
+          ACTUALITÉS — À REMPLIR
+          Dupliquer le bloc news-card pour chaque article.
+          ============================================================
+        -->
+        <div class="news-grid" id="news-grid">
+
+          <!-- TEMPLATE ARTICLE — copier/coller pour chaque actualité -->
+          <!--
+          <article class="news-card reveal">
+            <div class="news-card__image">
+              <img src="img/news/article-1.jpg" alt="[Titre de l'article]" loading="lazy">
+            </div>
+            <div class="news-card__body">
+              <p class="news-card__date">JJ Mois AAAA</p>
+              <h2 class="news-card__title">[TITRE DE L'ARTICLE]</h2>
+              <p class="news-card__excerpt">[Extrait / résumé de l'article en 2-3 lignes]</p>
+              <a href="#" style="display:inline-block;margin-top:1rem;font-size:0.72rem;color:var(--gold);letter-spacing:0.12em">
+                Lire la suite →
+              </a>
+            </div>
+          </article>
+          -->
+
+        </div>
+
+        <!-- Placeholder quand vide -->
+        <div class="news-empty" id="news-empty">
+          <svg style="width:60px;height:60px;fill:rgba(213,174,101,0.15);display:block;margin:0 auto 1.5rem" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM6 10h2v2H6zm0 4h8v2H6zm4-4h8v2h-8z"/></svg>
+          <p data-i18n="media.no-news">Les actualités arrivent bientôt.</p>
+          <p style="margin-top:0.5rem;font-size:0.8rem;color:rgba(138,138,142,0.6)">Suivez-nous sur Instagram pour ne rien manquer.</p>
+          <a href="https://www.instagram.com/thewondersoccer" target="_blank" rel="noopener"
+             style="display:inline-block;margin-top:1.5rem;font-size:0.72rem;color:var(--gold);letter-spacing:0.12em;border:1px solid rgba(213,174,101,0.3);padding:0.6rem 1.2rem">
+            @thewondersoccer →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Instagram feed placeholder -->
+    <section class="section" style="background:var(--black-2);text-align:center">
+      <div class="container">
+        <span class="section-label" style="display:block;text-align:center;margin-bottom:1rem">Instagram</span>
+        <h2 style="margin-bottom:1rem">@thewondersoccer</h2>
+        <div class="divider divider--center"></div>
+        <p style="color:var(--grey-light);font-size:0.95rem;max-width:480px;margin:0 auto 2rem">
+          Suivez nos dernières actualités sur Instagram.
+        </p>
+        <a href="https://www.instagram.com/thewondersoccer" target="_blank" rel="noopener" class="btn btn--outline-gold">
+          Suivre sur Instagram →
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-logo"><img src="img/logo.svg" alt="The Wonder Soccer Consulting" class="footer__brand-logo-svg" width="180" height="45"></div>
+          <p class="footer__brand-desc" data-i18n="footer.desc">Agent FIFA licencié spécialisé sur le marché africain.</p>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="footer.navigation">Navigation</p>
+          <ul class="footer__links">
+            <li><a href="index.html"    class="footer__link">Accueil</a></li>
+            <li><a href="a-propos.html" class="footer__link" data-i18n="nav.about">À propos</a></li>
+            <li><a href="joueurs.html"  class="footer__link" data-i18n="nav.players">Joueurs</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="nav.services">Services</a></li>
+            <li><a href="contact.html"  class="footer__link" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="footer.col.services">Services</p>
+          <ul class="footer__links">
+            <li><a href="services.html" class="footer__link" data-i18n="service.contracts">Négociation</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service.transfers">Transferts</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service.career">Gestion de carrière</a></li>
+            <li><a href="services.html" class="footer__link" data-i18n="service.scouting">Scouting</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="footer.col.contact">Contact</p>
+          <ul class="footer__links">
+            <li><a href="https://wa.me/2250707885909" class="footer__link" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="mailto:wondersociety@hotmail.com" class="footer__link">wondersociety@hotmail.com</a></li>
+            <li><a href="https://www.instagram.com/thewondersoccer" class="footer__link" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy" data-i18n="footer.copy">© 2025 The Wonder Soccer Consulting.</p>
+        <nav class="footer__legal-links">
+          <a href="mentions-legales.html"          class="footer__legal-link" data-i18n="footer.mentions">Mentions légales</a>
+          <a href="politique-confidentialite.html" class="footer__legal-link" data-i18n="footer.privacy">Confidentialité</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2250707885909" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg class="ico" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.106.549 4.082 1.512 5.8L.057 23.928a.75.75 0 00.924.924l6.123-1.455A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.875 0-3.63-.48-5.16-1.32l-.37-.21-3.84.91.93-3.73-.23-.38A9.97 9.97 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+  </a>
+  <button class="back-to-top" aria-label="Retour en haut">
+    <svg class="ico" viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <script>
+    /* Auto-hide empty placeholder if news cards exist */
+    document.addEventListener('DOMContentLoaded', () => {
+      const grid = document.getElementById('news-grid');
+      const empty = document.getElementById('news-empty');
+      if (grid && empty) {
+        empty.style.display = grid.querySelector('.news-card') ? 'none' : 'block';
+      }
+    });
+  </script>
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects
+# Add domain redirects here once the domain is connected
+
+# Redirect www to apex or vice versa — configure in Cloudflare dashboard
+# /old-page  /new-page  301
