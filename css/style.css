@@ -1282,8 +1282,31 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
     background: var(--gold-light);
   }
 
-  /* Keep cookie banner above the bottom nav bar */
+  /* Keep cookie banner above the bottom nav bar and ensure it fits fully */
   .cookie-banner {
     bottom: calc(66px + env(safe-area-inset-bottom, 0px));
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.9rem;
+    padding: 1rem 1.25rem;
+    max-height: calc(100vh - 66px - env(safe-area-inset-bottom, 0px) - 12px);
+    overflow-y: auto;
+  }
+
+  .cookie-banner__text {
+    max-width: none;
+    font-size: 0.74rem;
+  }
+
+  .cookie-banner__actions {
+    width: 100%;
+  }
+
+  .cookie-banner__actions .btn {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    justify-content: center;
   }
 }
