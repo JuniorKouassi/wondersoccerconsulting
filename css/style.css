@@ -1209,7 +1209,7 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 
 @media (max-width: 768px) {
   /* Push content above the bottom bar */
-  body { padding-bottom: 68px; }
+  body { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
 
   .bottom-nav {
     display: block;
@@ -1219,12 +1219,12 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
     background: var(--black-2);
     border-top: 1px solid rgba(213, 174, 101, 0.2);
     box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.75);
-    padding: 6px 8px env(safe-area-inset-bottom, 6px);
+    padding: 8px 8px calc(env(safe-area-inset-bottom, 0px) + 12px);
   }
 
   .bottom-nav-inner {
     display: flex;
-    height: 54px;
+    height: 56px;
     align-items: stretch;
     gap: 6px;
   }
@@ -1275,7 +1275,7 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 
   /* Lift the WhatsApp float above the bottom nav bar */
   .whatsapp-float {
-    bottom: calc(66px + 1rem + env(safe-area-inset-bottom, 0px));
+    bottom: calc(76px + 1rem + env(safe-area-inset-bottom, 0px));
   }
 }
 
