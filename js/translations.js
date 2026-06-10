@@ -123,6 +123,11 @@ const T = {
     "player.josue.club":  "Narva Trans FK (Estonie, D1)",
     "player.josue.nat":   "International togolais",
 
+    /* ---- Player: Hassamadou Ouedraogo ---- */
+    "player.hassamadou.pos":   "Milieu",
+    "player.hassamadou.club":  "CS Sfaxien (Tunisie) — prêt avec option d'achat",
+    "player.hassamadou.nat":   "International Burkina Faso",
+
     /* ---- Services page ---- */
     "services.page.label":    "Ce que nous faisons",
     "services.page.title":    "Nos services",
@@ -295,6 +300,11 @@ const T = {
     "player.josue.pos":   "Midfielder",
     "player.josue.club":  "Narva Trans FK (Estonia, D1)",
     "player.josue.nat":   "Togo International",
+
+    /* ---- Player: Hassamadou Ouedraogo ---- */
+    "player.hassamadou.pos":   "Midfielder",
+    "player.hassamadou.club":  "CS Sfaxien (Tunisia) — on loan with option to buy",
+    "player.hassamadou.nat":   "Burkina Faso International",
 
     "services.page.label":    "What we do",
     "services.page.title":    "Our services",
