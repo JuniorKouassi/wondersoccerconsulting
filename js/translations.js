@@ -104,6 +104,7 @@ const T = {
     "filter.mid":  "Milieu",
     "filter.fwd":  "Attaquant",
     "players.view.tm": "Voir sur Transfermarkt →",
+    "players.profile.tm": "Profil complet sur Transfermarkt — The Wonder Soccer Consulting",
 
     /* ---- Player: Arouna Ouattara ---- */
     "player.arouna.pos":   "Attaquant",
@@ -280,6 +281,7 @@ const T = {
     "filter.mid":  "Midfielder",
     "filter.fwd":  "Forward",
     "players.view.tm": "View on Transfermarkt →",
+    "players.profile.tm": "Full profile on Transfermarkt — The Wonder Soccer Consulting",
 
     /* ---- Player: Arouna Ouattara ---- */
     "player.arouna.pos":   "Forward",
