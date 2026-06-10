@@ -34,8 +34,6 @@ const T = {
 
     /* ---- Players (home) ---- */
     "players.label":    "Nos joueurs",
-    "players.title":    "Des talents d'exception",
-    "players.subtitle": "Une sélection de joueurs représentés par The Wonder Soccer Consulting.",
     "players.cta":      "Voir tous les joueurs",
 
     /* ---- Services (home) ---- */
@@ -218,8 +216,6 @@ const T = {
     "mission.text":  "At <strong>The Wonder Soccer Consulting</strong>, we believe every talent deserves a chance commensurate with their potential. For 5 years, we have guided African players on their journey to European clubs — with <strong>rigour, proximity, and long-term vision</strong>.",
 
     "players.label":    "Our players",
-    "players.title":    "Exceptional talents",
-    "players.subtitle": "A selection of players represented by The Wonder Soccer Consulting.",
     "players.cta":      "View all players",
 
     "services.label":    "Our services",
