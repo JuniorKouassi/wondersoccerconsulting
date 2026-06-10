@@ -1278,3 +1278,66 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
     bottom: calc(66px + 1rem + env(safe-area-inset-bottom, 0px));
   }
 }
+
+/* ============================================================
+   LANDSCAPE PHONES — short viewport heights
+   ============================================================ */
+@media (orientation: landscape) and (max-height: 500px) {
+  :root { --header-height: 56px; }
+
+  .header__logo-img,
+  .header__logo-svg { height: 36px; }
+
+  /* Free up vertical space: hide bottom nav, drop its body padding */
+  .bottom-nav { display: none !important; }
+  body { padding-bottom: 0 !important; }
+
+  /* No bottom nav to clear — bring floats back near the edge */
+  .whatsapp-float {
+    bottom: 1rem; right: 1rem;
+    width: 46px; height: 46px;
+  }
+  .whatsapp-float .ico { width: 22px; height: 22px; }
+  .back-to-top {
+    bottom: 1rem; right: 4.5rem;
+    width: 34px; height: 34px;
+  }
+
+  /* Compact hero to fit within the short viewport */
+  .hero { height: 100vh; min-height: 320px; }
+  .hero__content {
+    padding: calc(var(--header-height) + 0.75rem) var(--container-padding) 0.75rem;
+  }
+  .hero__eyebrow { margin-bottom: 0.6rem; }
+  .hero__title {
+    font-size: clamp(1.5rem, 4.2vw, 2.4rem);
+    margin-bottom: 0.6rem;
+  }
+  .hero__subtitle { display: none; }
+  .hero__cta {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .hero__cta .btn {
+    padding: 0.6rem 1.4rem;
+    font-size: 0.65rem;
+  }
+  .hero__scroll { display: none; }
+
+  /* Mobile fly-out menu: scrollable, top-aligned for short viewports */
+  .mobile-nav {
+    justify-content: flex-start;
+    padding: calc(var(--header-height) + 1rem) 1rem 1rem;
+    overflow-y: auto;
+    gap: 1.25rem;
+  }
+  .mobile-nav__list { gap: 1rem; }
+  .mobile-nav__link { font-size: 1.2rem; }
+
+  /* Page-hero (sub-pages) compaction */
+  .page-hero {
+    padding-top: calc(var(--header-height) + 1.5rem);
+    padding-bottom: 1.5rem;
+  }
+}
