@@ -107,6 +107,12 @@ const T = {
     "filter.fwd":  "Attaquant",
     "players.view.tm": "Voir sur Transfermarkt →",
 
+    /* ---- Player: Arouna Ouattara ---- */
+    "player.arouna.pos":   "Attaquant",
+    "player.arouna.club":  "FK Pardubice (Tchéquie, D2)",
+    "player.arouna.nat":   "International Burkina Faso",
+    "player.arouna.bio":   "Signé en République tchèque (D2) avec le FK Pardubice, en partenariat avec l'agence italienne D'Alessandro Scouting.",
+
     /* ---- Services page ---- */
     "services.page.label":    "Ce que nous faisons",
     "services.page.title":    "Nos services",
@@ -263,6 +269,12 @@ const T = {
     "filter.mid":  "Midfielder",
     "filter.fwd":  "Forward",
     "players.view.tm": "View on Transfermarkt →",
+
+    /* ---- Player: Arouna Ouattara ---- */
+    "player.arouna.pos":   "Forward",
+    "player.arouna.club":  "FK Pardubice (Czech Republic, 2nd Division)",
+    "player.arouna.nat":   "Burkina Faso International",
+    "player.arouna.bio":   "Signed in the Czech Republic (2nd Division) with FK Pardubice, in partnership with the Italian agency D'Alessandro Scouting.",
 
     "services.page.label":    "What we do",
     "services.page.title":    "Our services",
