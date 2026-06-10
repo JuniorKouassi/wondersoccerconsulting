@@ -1175,6 +1175,8 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   .header__nav, .btn-header { display: none; }
   .hamburger { display: flex; }
   .hero__cta { flex-direction: column; align-items: flex-start; }
+  .hero__content { padding-bottom: 4rem; }
+  .hero__scroll { display: none; }
   .stats__grid { grid-template-columns: repeat(2, 1fr); }
   .stats__item:nth-child(2)::after,
   .stats__item:nth-child(4)::after { display: none; }
