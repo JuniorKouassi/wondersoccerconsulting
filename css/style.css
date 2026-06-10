@@ -176,6 +176,9 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 }
 
 .lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
   padding: 0.25rem 0.5rem;
   border-radius: 2px;
   color: var(--grey);
@@ -192,8 +195,8 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 /* Flag icons inside lang buttons */
 .lang-btn .fi {
   display: block;
-  width: 26px;
-  height: 19px;
+  width: 18px;
+  height: 13px;
   border-radius: 2px;
   box-shadow: 0 0 0 1px rgba(255,255,255,0.12);
   opacity: 0.65;
@@ -203,6 +206,13 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 .lang-btn:hover .fi {
   opacity: 1;
   box-shadow: 0 0 0 1.5px var(--gold);
+}
+
+/* FR / EN text label */
+.lang-code {
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
 }
 
 /* CTA button header */
