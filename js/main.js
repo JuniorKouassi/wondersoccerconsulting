@@ -163,25 +163,6 @@ function initBackToTop() {
   btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 }
 
-/* ---- Cookie Banner ---------------------------------------- */
-function initCookieBanner() {
-  if (localStorage.getItem('wsc_cookies')) return;
-  const banner = document.querySelector('.cookie-banner');
-  if (!banner) return;
-
-  setTimeout(() => banner.classList.add('visible'), 1200);
-
-  banner.querySelector('.cookie-accept')?.addEventListener('click', () => {
-    localStorage.setItem('wsc_cookies', 'accepted');
-    banner.classList.remove('visible');
-  });
-
-  banner.querySelector('.cookie-decline')?.addEventListener('click', () => {
-    localStorage.setItem('wsc_cookies', 'declined');
-    banner.classList.remove('visible');
-  });
-}
-
 /* ---- Ticker duplicate for seamless loop ------------------- */
 function initTicker() {
   const track = document.querySelector('.ticker__track');
@@ -307,7 +288,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
   initCounters();
   initBackToTop();
-  initCookieBanner();
   initTicker();
   initPlayerFilter();
   initFormTabs();

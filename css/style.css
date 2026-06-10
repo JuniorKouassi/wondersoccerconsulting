@@ -1123,27 +1123,6 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 .back-to-top:hover { border-color: var(--gold); }
 .back-to-top .ico { width: 14px; height: 14px; fill: var(--cream); }
 
-/* --- Cookie Banner --------------------------------------- */
-.cookie-banner {
-  position: fixed;
-  bottom: 0; left: 0; right: 0;
-  z-index: 1003;
-  background: var(--black-3);
-  border-top: 1px solid rgba(213, 174, 101, 0.18);
-  padding: 1.25rem var(--container-padding);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
-  transform: translateY(100%);
-  transition: transform 0.4s ease;
-}
-.cookie-banner.visible { transform: translateY(0); }
-.cookie-banner__text { font-size: 0.8rem; color: var(--grey-light); max-width: 640px; line-height: 1.6; }
-.cookie-banner__text a { color: var(--gold); text-decoration: underline; }
-.cookie-banner__actions { display: flex; gap: 0.75rem; flex-shrink: 0; }
-
 /* --- Scroll Animations ----------------------------------- */
 .reveal {
   opacity: 0;
@@ -1294,40 +1273,8 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
     background: var(--gold-light);
   }
 
-  /* Float the cookie banner near the top, clear of the bottom nav bar
-     and mobile browser toolbars entirely */
-  .cookie-banner {
-    top: calc(var(--header-height) + 10px);
-    bottom: auto;
-    left: 12px;
-    right: 12px;
-    border-top: 1px solid rgba(213, 174, 101, 0.18);
-    border: 1px solid rgba(213, 174, 101, 0.18);
-    border-radius: 10px;
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.9rem;
-    padding: 1rem 1.25rem;
-    max-height: calc(100vh - var(--header-height) - 24px);
-    overflow-y: auto;
-    transform: translateY(-130%);
-  }
-
-  .cookie-banner__text {
-    max-width: none;
-    font-size: 0.74rem;
-  }
-
-  .cookie-banner__actions {
-    width: 100%;
-  }
-
-  .cookie-banner__actions .btn {
-    flex: 1;
-    padding: 0.7rem 1rem;
-    font-size: 0.62rem;
-    letter-spacing: 0.12em;
-    justify-content: center;
+  /* Lift the WhatsApp float above the bottom nav bar */
+  .whatsapp-float {
+    bottom: calc(66px + 1rem + env(safe-area-inset-bottom, 0px));
   }
 }

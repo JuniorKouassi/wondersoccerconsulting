@@ -163,11 +163,6 @@ const T = {
     "talent.rgpd":         "J'accepte les conditions et la <a href='politique-confidentialite.html'>politique de confidentialité</a>.",
     "talent.success":      "✓ Le talent a bien été soumis. Nous examinerons le dossier et reviendrons vers vous.",
 
-    /* ---- Cookie ---- */
-    "cookie.text":    "Nous utilisons uniquement des cookies techniques nécessaires au bon fonctionnement du site. Aucun cookie publicitaire.",
-    "cookie.accept":  "Accepter",
-    "cookie.decline": "Refuser",
-
     /* ---- Misc ---- */
     "read.more":   "En savoir plus",
     "back.top":    "Haut de page",
@@ -321,10 +316,6 @@ const T = {
     "talent.submit":       "Submit talent",
     "talent.rgpd":         "I accept the terms and the <a href='privacy.html'>privacy policy</a>.",
     "talent.success":      "✓ The talent has been submitted. We will review the file and get back to you.",
-
-    "cookie.text":    "We only use technically necessary cookies for the proper functioning of the site. No advertising cookies.",
-    "cookie.accept":  "Accept",
-    "cookie.decline": "Decline",
 
     "read.more":   "Read more",
     "back.top":    "Back to top",
