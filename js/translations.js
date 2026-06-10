@@ -62,7 +62,7 @@ const T = {
     "cta.club":   "Je suis un club",
 
     /* ---- Footer ---- */
-    "footer.desc":          "Agent FIFA licencié spécialisé sur le marché africain. Révéler et accompagner les talents du football africain vers l'Europe depuis 2020.",
+    "footer.desc":          "Agence spécialisée dans la représentation de talents africains. Révéler et accompagner les joueurs du continent vers l'Europe depuis 2020.",
     "footer.navigation":    "Navigation",
     "footer.col.services":  "Services",
     "footer.col.contact":   "Contact",
@@ -241,7 +241,7 @@ const T = {
     "cta.player": "I am a player",
     "cta.club":   "I am a club",
 
-    "footer.desc":         "FIFA licensed agent specialising in the African market. Revealing and guiding African football talent to Europe since 2020.",
+    "footer.desc":         "Agency specialising in representing African talent. Revealing and guiding players from the continent to Europe since 2020.",
     "footer.navigation":   "Navigation",
     "footer.col.services": "Services",
     "footer.col.contact":  "Contact",
