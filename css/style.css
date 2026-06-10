@@ -1105,7 +1105,7 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 .cookie-banner {
   position: fixed;
   bottom: 0; left: 0; right: 0;
-  z-index: 950;
+  z-index: 1003;
   background: var(--black-3);
   border-top: 1px solid rgba(213, 174, 101, 0.18);
   padding: 1.25rem var(--container-padding);
@@ -1270,5 +1270,10 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 
   .bottom-nav-item:hover {
     background: var(--gold-light);
+  }
+
+  /* Keep cookie banner above the bottom nav bar */
+  .cookie-banner {
+    bottom: calc(66px + env(safe-area-inset-bottom, 0px));
   }
 }
