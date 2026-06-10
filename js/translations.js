@@ -231,7 +231,7 @@ const T = {
     "service.career.desc":    "Personalised follow-up at every stage: loans, promotion, line-up, retirement planning.",
     "service.image":          "Image Rights",
     "service.image.desc":     "Developing the player's image with brands, sponsors and media.",
-    "service.scouting":       "Scouting &amp; Detection",
+    "service.scouting":       "Scouting & Detection",
     "service.scouting.desc":  "Identifying talent in African leagues and opening them to European opportunities.",
 
     "ticker.label": "Clubs &amp; Partners",
