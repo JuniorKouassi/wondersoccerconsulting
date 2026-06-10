@@ -408,23 +408,6 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   margin: 0 auto;
 }
 
-.hero__eyebrow {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-  opacity: 0;
-  animation: fadeUp 0.8s ease forwards 0.3s;
-}
-.hero__eyebrow-line { width: 36px; height: 1px; background: var(--gold); }
-.hero__eyebrow-text {
-  font-size: 0.68rem;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  color: var(--gold);
-  font-weight: 600;
-}
-
 .hero__title {
   max-width: 720px;
   margin-bottom: 1.5rem;
@@ -1308,7 +1291,6 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   .hero__content {
     padding: calc(var(--header-height) + 0.75rem) var(--container-padding) 0.75rem;
   }
-  .hero__eyebrow { margin-bottom: 0.6rem; }
   .hero__title {
     font-size: clamp(1.5rem, 4.2vw, 2.4rem);
     margin-bottom: 0.6rem;
