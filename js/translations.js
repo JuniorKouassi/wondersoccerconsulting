@@ -118,6 +118,11 @@ const T = {
     "player.alain.club":  "Club Africain (Tunisie, D1)",
     "player.alain.nat":   "International Burkina Faso",
 
+    /* ---- Player: Josué Yayra Doké ---- */
+    "player.josue.pos":   "Milieu",
+    "player.josue.club":  "Narva Trans FK (Estonie, D1)",
+    "player.josue.nat":   "International togolais",
+
     /* ---- Services page ---- */
     "services.page.label":    "Ce que nous faisons",
     "services.page.title":    "Nos services",
@@ -285,6 +290,11 @@ const T = {
     "player.alain.pos":   "Midfielder",
     "player.alain.club":  "Club Africain (Tunisia, D1)",
     "player.alain.nat":   "Burkina Faso International",
+
+    /* ---- Player: Josué Yayra Doké ---- */
+    "player.josue.pos":   "Midfielder",
+    "player.josue.club":  "Narva Trans FK (Estonia, D1)",
+    "player.josue.nat":   "Togo International",
 
     "services.page.label":    "What we do",
     "services.page.title":    "Our services",
