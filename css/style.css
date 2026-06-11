@@ -419,9 +419,10 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   position: relative;
   width: 100%;
   max-width: 440px;
-  margin-inline: auto;
+  margin-left: auto;
+  margin-right: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .wsc-goal-scene {
   position: relative;
@@ -1191,7 +1192,7 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   }
   .hero__copy { max-width: none; margin-inline: auto; }
   .hero__title, .hero__subtitle { margin-inline: auto; }
-  .wsc-goal { order: -1; max-width: 280px; }
+  .wsc-goal { order: -1; max-width: 200px; margin-inline: auto; justify-content: center; }
   .hero__scroll { display: none; }
   .stats__grid { grid-template-columns: repeat(2, 1fr); }
   .stats__item:nth-child(2)::after,
@@ -1206,6 +1207,7 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 
 @media (max-width: 520px) {
   .players__grid { grid-template-columns: 1fr; }
+  .wsc-goal { max-width: 160px; }
   .hero__cta .btn { width: 100%; justify-content: center; }
   .cta-section__actions { flex-direction: column; align-items: center; }
   .cta-section__actions .btn { width: 100%; justify-content: center; max-width: 300px; }
