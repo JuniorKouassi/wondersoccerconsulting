@@ -1294,6 +1294,11 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   .whatsapp-float {
     bottom: calc(76px + 1rem + env(safe-area-inset-bottom, 0px));
   }
+
+  /* Stack back-to-top above the WhatsApp float so they don't overlap */
+  .back-to-top {
+    bottom: calc(76px + 1rem + 54px + 0.75rem + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 /* ============================================================
