@@ -52,9 +52,6 @@ const T = {
     "service.scouting":       "Scouting & Détection",
     "service.scouting.desc":  "Identification des talents dans les championnats africains pour les ouvrir à l'Europe.",
 
-    /* ---- Ticker ---- */
-    "ticker.label": "Clubs & Partenaires",
-
     /* ---- CTA section ---- */
     "cta.title":  "Parlons de votre projet",
     "cta.text":   "Joueur en recherche de représentation, club en quête de talent, ou partenaire potentiel — nous sommes à votre disposition.",
@@ -233,8 +230,6 @@ const T = {
     "service.image.desc":     "Developing the player's image with brands, sponsors and media.",
     "service.scouting":       "Scouting & Detection",
     "service.scouting.desc":  "Identifying talent in African leagues and opening them to European opportunities.",
-
-    "ticker.label": "Clubs &amp; Partners",
 
     "cta.title":  "Let's talk about your project",
     "cta.text":   "Player looking for representation, club searching for talent, or potential partner — we are at your disposal.",

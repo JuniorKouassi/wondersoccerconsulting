@@ -163,15 +163,6 @@ function initBackToTop() {
   btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 }
 
-/* ---- Ticker duplicate for seamless loop ------------------- */
-function initTicker() {
-  const track = document.querySelector('.ticker__track');
-  if (!track) return;
-  /* Clone for seamless infinite scroll */
-  const clone = track.cloneNode(true);
-  track.parentElement.appendChild(clone);
-}
-
 /* ---- Player Filter ---------------------------------------- */
 function initPlayerFilter() {
   const filterBtns = document.querySelectorAll('.filter-btn');
@@ -288,7 +279,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
   initCounters();
   initBackToTop();
-  initTicker();
   initPlayerFilter();
   initFormTabs();
   initForms();

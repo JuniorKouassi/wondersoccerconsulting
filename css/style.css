@@ -665,52 +665,6 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
 .service-detail__title { margin-bottom: 1rem; }
 .service-detail__text { font-size: 1rem; color: var(--grey-light); line-height: 1.82; }
 
-/* --- Club Ticker ------------------------------------------ */
-.ticker-wrap {
-  overflow: hidden;
-  padding: 2.25rem 0;
-  background: var(--black-2);
-  border-top: 1px solid rgba(213, 174, 101, 0.08);
-  border-bottom: 1px solid rgba(213, 174, 101, 0.08);
-  position: relative;
-}
-.ticker-wrap::before,
-.ticker-wrap::after {
-  content: '';
-  position: absolute;
-  top: 0; bottom: 0;
-  width: 80px;
-  z-index: 2;
-}
-.ticker-wrap::before { left: 0; background: linear-gradient(to right, var(--black-2), transparent); }
-.ticker-wrap::after  { right: 0; background: linear-gradient(to left, var(--black-2), transparent); }
-
-.ticker__track {
-  display: flex;
-  gap: 3.5rem;
-  align-items: center;
-  animation: tickerScroll 35s linear infinite;
-  width: max-content;
-}
-.ticker__track:hover { animation-play-state: paused; }
-
-.ticker__item {
-  font-family: var(--font-heading);
-  font-size: 0.72rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--grey);
-  flex-shrink: 0;
-  transition: color var(--transition);
-}
-.ticker__item:hover { color: var(--cream); }
-.ticker__dot { color: var(--gold); font-size: 1.2rem; flex-shrink: 0; line-height: 1; }
-
-@keyframes tickerScroll {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-
 /* --- CTA Section ------------------------------------------ */
 .cta-section {
   text-align: center;
