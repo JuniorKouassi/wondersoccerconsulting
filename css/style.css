@@ -1183,6 +1183,12 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   :root { --header-height: 68px; }
   .header__nav, .btn-header { display: none; }
   .hamburger { display: flex; }
+
+  /* Smaller language flags/labels on mobile header */
+  .header__actions .lang-switcher { gap: 0.1rem; }
+  .header__actions .lang-btn { padding: 0.2rem 0.35rem; gap: 0.25rem; }
+  .header__actions .lang-btn .fi { width: 14px; height: 10px; }
+  .header__actions .lang-code { font-size: 0.58rem; }
   .hero__cta { flex-direction: column; align-items: center; }
   .hero__content {
     grid-template-columns: 1fr;
