@@ -6,7 +6,7 @@
 let currentLang = localStorage.getItem('wsc_lang') || (navigator.language.startsWith('fr') ? 'fr' : 'en');
 
 function t(key) {
-  return (T[currentLang] && T[currentLang][key]) || T['fr'][key] || key;
+  return (T[currentLang] && T[currentLang][key]) || T['en'][key] || T['fr'][key] || key;
 }
 
 function applyLanguage() {
