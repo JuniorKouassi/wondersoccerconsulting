@@ -1227,6 +1227,11 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
   .footer__bottom { flex-direction: column; align-items: flex-start; }
   .form__row { grid-template-columns: 1fr; }
   .players__grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* Media & News: tighten gap between subtitle and video on mobile */
+  .page-hero--media { padding-bottom: 1.5rem; }
+  .section--media-news { padding-top: 1.5rem; }
+  .news-empty { padding-top: 0.5rem; }
 }
 
 @media (max-width: 520px) {
