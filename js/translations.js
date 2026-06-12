@@ -124,6 +124,11 @@ const T = {
     "player.hassamadou.club":  "CS Sfaxien (Tunisie) — prêt avec option d'achat",
     "player.hassamadou.nat":   "International Burkina Faso",
 
+    /* ---- Player: Abou Sylla ---- */
+    "player.abou.pos":   "Défenseur central / Milieu central",
+    "player.abou.club":  "Riga FC II (Lettonie)",
+    "player.abou.nat":   "Ivoirien",
+
     /* ---- Services page ---- */
     "services.page.label":    "Ce que nous faisons",
     "services.page.title":    "Nos services",
@@ -299,6 +304,11 @@ const T = {
     "player.hassamadou.pos":   "Midfielder",
     "player.hassamadou.club":  "CS Sfaxien (Tunisia) — on loan with option to buy",
     "player.hassamadou.nat":   "Burkina Faso International",
+
+    /* ---- Player: Abou Sylla ---- */
+    "player.abou.pos":   "Center-back / Central Midfielder",
+    "player.abou.club":  "Riga FC II (Latvia)",
+    "player.abou.nat":   "Ivorian",
 
     "services.page.label":    "What we do",
     "services.page.title":    "Our services",
