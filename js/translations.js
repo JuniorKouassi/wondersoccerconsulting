@@ -142,6 +142,7 @@ const T = {
     "media.title":    "Médias &amp; Actualités",
     "media.subtitle": "Transferts, signatures, interviews — suivez l'activité de The Wonder Soccer Consulting.",
     "media.no-news":  "Les actualités arrivent bientôt.",
+    "media.follow-ig": "Suivez-nous sur Instagram pour ne rien manquer.",
 
     /* ---- Contact page ---- */
     "contact.label":    "Parlons-en",
@@ -315,6 +316,7 @@ const T = {
     "media.title":    "Media &amp; News",
     "media.subtitle": "Transfers, signings, interviews — follow The Wonder Soccer Consulting's activity.",
     "media.no-news":  "News coming soon.",
+    "media.follow-ig": "Follow us on Instagram so you don't miss a thing.",
 
     "contact.label":    "Let's talk",
     "contact.title":    "Contact",
