@@ -27,7 +27,7 @@
     font-weight="800"
     font-size="13.5"
     letter-spacing="1.5"
-    fill="#F5F2EC">THE WONDER SOCCER</text>
+    fill="#000000">THE WONDER SOCCER</text>
 
   <line x1="88" y1="37" x2="300" y2="37"
     stroke="#D5AE65" stroke-width="0.7" opacity="0.55"/>
@@ -44,5 +44,5 @@
     font-weight="400"
     font-size="6.5"
     letter-spacing="1.8"
-    fill="#8A8A8E">LICENSED FIFA AGENT</text>
+    fill="#000000">LICENSED FIFA AGENT</text>
 </svg>
