@@ -171,13 +171,13 @@
 
   /* ---------- frame ---------- */
   function background() {
-    // solid base + a gentle warm vignette
-    ctx.fillStyle = "#121214";
+    // solid base + a gentle warm golden glow
+    ctx.fillStyle = "#FFFFFF";
     ctx.fillRect(0, 0, W, H);
     var g = ctx.createRadialGradient(W * 0.5, H * 0.42, 0, W * 0.5, H * 0.42, diag * 0.62);
-    g.addColorStop(0, "rgba(40,34,18,0.30)");
-    g.addColorStop(0.55, "rgba(20,18,14,0.10)");
-    g.addColorStop(1, "rgba(8,8,9,0.55)");
+    g.addColorStop(0, "rgba(" + GOLD + ",0.08)");
+    g.addColorStop(0.55, "rgba(" + GOLD + ",0.03)");
+    g.addColorStop(1, "rgba(" + GOLD + ",0)");
     ctx.fillStyle = g;
     ctx.fillRect(0, 0, W, H);
   }
