@@ -29,6 +29,10 @@ function applyLanguage() {
     el.placeholder = t(el.dataset.i18nPlaceholder);
   });
 
+  document.querySelectorAll('[data-i18n-aria]').forEach(el => {
+    el.setAttribute('aria-label', t(el.dataset.i18nAria));
+  });
+
   /* Update lang buttons */
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === currentLang);

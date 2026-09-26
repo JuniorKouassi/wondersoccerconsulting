@@ -1393,3 +1393,10 @@ h3 { font-size: clamp(1.1rem, 2vw, 1.6rem); }
     padding-bottom: 1.5rem;
   }
 }
+
+/* ============================================================
+   LANGUAGE-SPECIFIC BLOCKS (long legal texts)
+   main.js sets <html lang>; show only the matching block.
+   ============================================================ */
+html[lang="en"] [data-lang-only="fr"],
+html:not([lang="en"]) [data-lang-only="en"] { display: none; }

@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
   <link rel="apple-touch-icon" sizes="512x512" href="img/favicon-512.png">
   <meta name="theme-color" content="#FFFFFF">
-  <title>Contact — The Wonder Soccer Consulting</title>
+  <title data-i18n="meta.title.contact">Contact — The Wonder Soccer Consulting</title>
   <meta name="description" content="Contactez The Wonder Soccer Consulting — agent licencié FIFA. WhatsApp, e-mail ou formulaire de contact. Soumettez un talent.">
   <meta property="og:type"        content="website">
   <meta property="og:site_name"   content="The Wonder Soccer Consulting">
@@ -95,7 +95,7 @@
               <a href="https://wa.me/2250707885909" class="contact-info__link" style="font-size:1.15rem;font-weight:600" target="_blank" rel="noopener">
                 +225 07 07 88 59 09
               </a>
-              <p style="font-size:0.8rem;color:var(--grey);margin-top:0.35rem">Disponible 7j/7</p>
+              <p style="font-size:0.8rem;color:var(--grey);margin-top:0.35rem" data-i18n="contact.whatsapp.hours">Disponible 7j/7</p>
             </div>
 
             <div class="contact-info__item">
@@ -166,7 +166,7 @@
                   <div class="form__group">
                     <label class="form__label" for="contact-email" data-i18n="form.email">Adresse e-mail</label>
                     <input type="email" id="contact-email" name="email" class="form__input" required
-                           data-i18n-placeholder="form.email" placeholder="E-mail">
+                           data-i18n-placeholder="form.email.ph" placeholder="E-mail">
                   </div>
                 </div>
 
@@ -217,12 +217,12 @@
                   <div class="form__group">
                     <label class="form__label" for="talent-submitter" data-i18n="form.name">Votre nom complet</label>
                     <input type="text" id="talent-submitter" name="submitter_name" class="form__input" required
-                           placeholder="Votre nom">
+                           data-i18n-placeholder="talent.ph.submitter" placeholder="Votre nom">
                   </div>
                   <div class="form__group">
                     <label class="form__label" for="talent-email" data-i18n="form.email">Votre e-mail</label>
                     <input type="email" id="talent-email" name="submitter_email" class="form__input" required
-                           placeholder="E-mail">
+                           data-i18n-placeholder="form.email.ph" placeholder="E-mail">
                   </div>
                 </div>
 
@@ -230,7 +230,7 @@
                   <div class="form__group">
                     <label class="form__label" for="talent-name" data-i18n="talent.player.name">Nom du joueur</label>
                     <input type="text" id="talent-name" name="player_name" class="form__input" required
-                           placeholder="Nom du joueur">
+                           data-i18n-placeholder="talent.ph.player" placeholder="Nom du joueur">
                   </div>
                   <div class="form__group">
                     <label class="form__label" for="talent-age" data-i18n="talent.age">Âge</label>
@@ -243,7 +243,7 @@
                   <div class="form__group">
                     <label class="form__label" for="talent-pos" data-i18n="talent.position">Poste</label>
                     <select id="talent-pos" name="player_position" class="form__select">
-                      <option value="">— Sélectionner —</option>
+                      <option value="" data-i18n="form.select">— Sélectionner —</option>
                       <option value="Gardien"   data-i18n="filter.gk">Gardien</option>
                       <option value="Défenseur" data-i18n="filter.def">Défenseur</option>
                       <option value="Milieu"    data-i18n="filter.mid">Milieu</option>
@@ -253,14 +253,14 @@
                   <div class="form__group">
                     <label class="form__label" for="talent-club" data-i18n="talent.club">Club actuel</label>
                     <input type="text" id="talent-club" name="player_club" class="form__input"
-                           placeholder="Nom du club">
+                           data-i18n-placeholder="talent.ph.club" placeholder="Nom du club">
                   </div>
                 </div>
 
                 <div class="form__group">
                   <label class="form__label" for="talent-country" data-i18n="talent.country">Pays</label>
                   <input type="text" id="talent-country" name="player_country" class="form__input"
-                         placeholder="Côte d'Ivoire, Mali, Sénégal...">
+                         data-i18n-placeholder="talent.ph.country" placeholder="Côte d'Ivoire, Mali, Sénégal...">
                 </div>
 
                 <div class="form__group">
@@ -272,7 +272,7 @@
                 <div class="form__group">
                   <label class="form__label" for="talent-message" data-i18n="talent.message">Présentation &amp; informations supplémentaires</label>
                   <textarea id="talent-message" name="player_description" class="form__textarea"
-                            placeholder="Décrivez le profil du joueur, ses qualités, sa situation actuelle..."></textarea>
+                            data-i18n-placeholder="talent.message.ph" placeholder="Décrivez le profil du joueur, ses qualités, sa situation actuelle..."></textarea>
                 </div>
 
                 <div class="form__checkbox">
@@ -299,9 +299,9 @@
     <!-- Direct contact CTA -->
     <section id="clubs" class="section" style="background:var(--black-2);text-align:center">
       <div class="container">
-        <h2 class="reveal" style="margin-bottom:1rem">Vous êtes un club ?</h2>
+        <h2 class="reveal" style="margin-bottom:1rem" data-i18n="contact.clubs.title">Vous êtes un club ?</h2>
         <div class="divider divider--center reveal reveal-delay-1"></div>
-        <p class="reveal reveal-delay-1" style="color:var(--grey-light);font-size:1rem;max-width:500px;margin:0 auto 2rem;line-height:1.7">
+        <p class="reveal reveal-delay-1" style="color:var(--grey-light);font-size:1rem;max-width:500px;margin:0 auto 2rem;line-height:1.7" data-i18n="contact.clubs.text">
           Pour toute demande de profil ou proposition de collaboration, contactez-nous directement par WhatsApp ou par e-mail. Réponse sous 24h.
         </p>
         <div class="cta-section__actions reveal reveal-delay-2">
@@ -327,7 +327,7 @@
         <div>
           <p class="footer__col-title" data-i18n="footer.navigation">Navigation</p>
           <ul class="footer__links">
-            <li><a href="index.html"    class="footer__link">Accueil</a></li>
+            <li><a href="index.html"    class="footer__link" data-i18n="nav.home">Accueil</a></li>
             <li><a href="a-propos.html" class="footer__link" data-i18n="nav.about">À propos</a></li>
             <li><a href="joueurs.html"  class="footer__link" data-i18n="nav.players">Joueurs</a></li>
             <li><a href="services.html" class="footer__link" data-i18n="nav.services">Services</a></li>
@@ -365,7 +365,7 @@
   <a href="https://wa.me/2250707885909" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
     <svg class="ico" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.106.549 4.082 1.512 5.8L.057 23.928a.75.75 0 00.924.924l6.123-1.455A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.875 0-3.63-.48-5.16-1.32l-.37-.21-3.84.91.93-3.73-.23-.38A9.97 9.97 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
   </a>
-  <button class="back-to-top" aria-label="Retour en haut">
+  <button class="back-to-top" aria-label="Retour en haut" data-i18n-aria="aria.top">
     <svg class="ico" viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
   </button>
 
@@ -375,7 +375,7 @@
   <script src="js/golden-background.js"></script>
 
   <!-- ===== BOTTOM NAV (mobile) ===== -->
-  <nav class="bottom-nav" aria-label="Navigation mobile">
+  <nav class="bottom-nav" aria-label="Navigation mobile" data-i18n-aria="aria.bottomnav">
     <div class="bottom-nav-inner">
       <a href="a-propos.html" class="bottom-nav-item">
         <i class="fa-solid fa-user-tie"></i>
