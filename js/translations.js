@@ -19,11 +19,15 @@ const T = {
     "hero.subtitle":   "5 ans d'expérience au service des joueurs africains, vers les grandes ligues professionnelles européennes.",
     "hero.cta.talent": "Soumettre un talent",
     "hero.cta.clubs":  "Espace clubs",
+    "hero.eyebrow":    "Agent licencié FIFA · Afrique — Europe",
+    "hero.video.label": "Vidéo",
+    "hero.video.pause": "Mettre la vidéo en pause",
+    "hero.video.play":  "Lire la vidéo",
 
     /* ---- Stats ---- */
     "stats.players":    "Joueurs accompagnés",
     "stats.transfers":  "Transferts réalisés",
-    "stats.countries":  "Pays &amp; ligues",
+    "stats.countries":  "Pays & ligues",
     "stats.experience": "Ans d'expérience",
     "stats.license":    "Licence FIFA",
 
@@ -216,10 +220,14 @@ const T = {
     "hero.subtitle":   "5 years of experience placing African players in Europe's top professional leagues.",
     "hero.cta.talent": "Submit a talent",
     "hero.cta.clubs":  "For clubs",
+    "hero.eyebrow":    "FIFA licensed agent · Africa — Europe",
+    "hero.video.label": "Video",
+    "hero.video.pause": "Pause the video",
+    "hero.video.play":  "Play the video",
 
     "stats.players":    "Players represented",
     "stats.transfers":  "Transfers completed",
-    "stats.countries":  "Countries &amp; leagues",
+    "stats.countries":  "Countries & leagues",
     "stats.experience": "Years of experience",
     "stats.license":    "FIFA license",
 

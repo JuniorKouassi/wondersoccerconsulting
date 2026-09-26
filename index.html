@@ -69,20 +69,18 @@
   }
   </script>
 
-  <style>
-    /* Hero background — replace with real photo:
-       .hero__bg { background-image: url('img/hero-bg.jpg'); }
-       Add class hero__bg--photo to the div below */
-  </style>
+  <link rel="stylesheet" href="css/hero-video.css">
+  <link rel="preload" as="image" href="img/hero-poster.jpg">
 </head>
-<body class="page-body">
+<body class="page-body home-video">
   <canvas id="wsc-bg" aria-hidden="true"></canvas>
 
   <!-- ===== HEADER ===== -->
   <header class="header" role="banner">
     <div class="header__inner">
       <a href="index.html" class="header__logo" aria-label="The Wonder Soccer Consulting — Accueil">
-        <img src="img/logo-dark.svg" alt="The Wonder Soccer Consulting" class="header__logo-img">
+        <img src="img/logo-dark.svg" alt="The Wonder Soccer Consulting" class="header__logo-img header__logo-img--dark">
+        <img src="img/logo-light.svg" alt="" aria-hidden="true" class="header__logo-img header__logo-img--light">
       </a>
 
       <nav class="header__nav" role="navigation" aria-label="Navigation principale">
@@ -129,15 +127,39 @@
   <main>
 
     <!-- ===== HERO ===== -->
-    <section class="hero" aria-label="Bannière principale">
-      <!-- Replace class with hero__bg--photo and add background-image for real photo -->
-      <div class="hero__bg"></div>
+    <section class="hero hero--video" aria-label="Bannière principale">
+      <!-- Background: aerial stadium loop (video/hero-stadium-*.mp4, poster img/hero-poster.jpg) -->
+      <div class="hv-media" aria-hidden="true">
+        <div class="hv-frame">
+          <div class="hv-zoom">
+            <video class="hv-video" muted loop playsinline preload="auto"
+                   poster="img/hero-poster.jpg"
+                   data-src-large="video/hero-stadium-1080.mp4"
+                   data-src-small="video/hero-stadium-720.mp4"></video>
+          </div>
+        </div>
+      </div>
+      <div class="hv-shade" aria-hidden="true"></div>
+      <div class="hv-flare" aria-hidden="true"></div>
+      <div class="hv-grain" aria-hidden="true"></div>
+
+      <!-- Opening curtain -->
+      <div class="hv-curtain" aria-hidden="true">
+        <div class="hv-curtain__panel hv-curtain__panel--top"></div>
+        <div class="hv-curtain__panel hv-curtain__panel--bottom"></div>
+        <img class="hv-curtain__mark" src="img/logo-mark.svg" alt="">
+        <div class="hv-curtain__line"></div>
+      </div>
 
       <div class="hero__content">
         <div class="hero__copy">
+          <p class="hv-eyebrow">
+            <span class="hv-eyebrow__line" aria-hidden="true"></span>
+            <span data-i18n="hero.eyebrow">Agent licencié FIFA · Afrique — Europe</span>
+          </p>
           <h1 class="hero__title">
-            <span class="gold" data-i18n="hero.title.1">Révéler &amp; Accompagner</span><br>
-            <span data-i18n="hero.title.2">les Talents du Football Africain</span>
+            <span class="hv-line"><span class="hv-line__inner gold" data-i18n="hero.title.1">Révéler &amp; Accompagner</span></span>
+            <span class="hv-line"><span class="hv-line__inner" data-i18n="hero.title.2">les Talents du Football Africain</span></span>
           </h1>
 
           <p class="hero__subtitle" data-i18n="hero.subtitle">
@@ -149,19 +171,41 @@
             <a href="contact.html#clubs"  class="btn btn--outline" data-i18n="hero.cta.clubs">Espace clubs</a>
           </div>
         </div>
+      </div>
 
-        <div class="wsc-goal" role="img" aria-label="Ballon de football frappant le filet du but">
-          <div class="wsc-goal-scene">
-            <img class="wsc-net" src="img/goal-net.png" alt="Ballon de football noir et blanc dans le filet" />
-            <div class="wsc-goal-ball"><img src="img/goal-ball.png" alt="Ballon de football" /></div>
+      <div class="hv-bar">
+        <div class="hv-bar__inner">
+          <div class="hv-route" aria-hidden="true">
+            <span>Abidjan</span>
+            <svg viewBox="0 0 150 34">
+              <path id="hv-route-path" class="hv-route__path" d="M4 28 Q75 -6 146 28"/>
+              <circle class="hv-route__dot" cx="4" cy="28" r="3"/>
+              <circle class="hv-route__dot" cx="146" cy="28" r="3"/>
+              <circle class="hv-route__ball" r="3.5">
+                <animateMotion dur="3.2s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="spline" keySplines="0.45 0 0.25 1">
+                  <mpath href="#hv-route-path"/>
+                </animateMotion>
+              </circle>
+            </svg>
+            <span>Europe</span>
+          </div>
+
+          <div class="hero__scroll" aria-hidden="true">
+            <span class="hero__scroll-label" data-i18n="scroll">Découvrir</span>
+            <span class="hero__scroll-line"></span>
+          </div>
+
+          <div class="hv-controls">
+            <span class="hv-controls__label" data-i18n="hero.video.label">Vidéo</span>
+            <button class="hv-toggle" type="button" aria-pressed="false" aria-label="Pause">
+              <svg class="hv-icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+              <svg class="hv-icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
           </div>
         </div>
       </div>
 
-      <div class="hero__scroll" aria-hidden="true">
-        <span class="hero__scroll-label" data-i18n="scroll">Découvrir</span>
-        <span class="hero__scroll-line"></span>
-      </div>
+      <div class="hv-progress" aria-hidden="true"><div class="hv-progress__bar"></div></div>
     </section>
 
     <!-- ===== STATS ===== -->
@@ -347,6 +391,7 @@
   <script src="js/translations.js"></script>
   <script src="js/main.js"></script>
   <script src="js/golden-background.js"></script>
+  <script src="js/hero-video.js"></script>
 
   <!-- ===== BOTTOM NAV (mobile) ===== -->
   <nav class="bottom-nav" aria-label="Navigation mobile">
