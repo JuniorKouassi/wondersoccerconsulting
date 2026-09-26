@@ -132,6 +132,11 @@ const T = {
     "player.abou.club":  "Riga FC II (Lettonie)",
     "player.abou.nat":   "Ivoirien",
 
+    /* ---- Player: Aboubacar Dosso ---- */
+    "player.dosso.pos":   "Milieu offensif / Ailier",
+    "player.dosso.club":  "Hapoel Kfar Shalem (Israël) — prêt",
+    "player.dosso.nat":   "Ivoirien",
+
     /* ---- Services page ---- */
     "services.page.label":    "Ce que nous faisons",
     "services.page.title":    "Nos services",
@@ -315,6 +320,11 @@ const T = {
     "player.abou.pos":   "Center-back / Central Midfielder",
     "player.abou.club":  "Riga FC II (Latvia)",
     "player.abou.nat":   "Ivorian",
+
+    /* ---- Player: Aboubacar Dosso ---- */
+    "player.dosso.pos":   "Attacking Midfielder / Winger",
+    "player.dosso.club":  "Hapoel Kfar Shalem (Israel) — on loan",
+    "player.dosso.nat":   "Ivorian",
 
     "services.page.label":    "What we do",
     "services.page.title":    "Our services",
